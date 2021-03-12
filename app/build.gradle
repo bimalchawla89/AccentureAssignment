@@ -10,7 +10,7 @@ plugins {
 android {
     signingConfigs {
         weather {
-            storeFile file('/Users/bimal/AndroidStudioProjects/Weather/weather.jks')
+            storeFile file('/Users/bimal/AndroidStudioProjects/Weather/app/weather.jks')
             storePassword 'weather'
             keyAlias 'weather'
             keyPassword 'weather'
